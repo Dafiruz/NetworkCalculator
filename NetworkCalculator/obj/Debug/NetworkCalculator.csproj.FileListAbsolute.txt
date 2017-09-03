@@ -1,0 +1,9 @@
+D:\Dropbox\Random Stuff\Code\VisualStudio\NetworkCalculator\NetworkCalculator\bin\Debug\NetworkCalculator.exe.config
+D:\Dropbox\Random Stuff\Code\VisualStudio\NetworkCalculator\NetworkCalculator\bin\Debug\NetworkCalculator.exe
+D:\Dropbox\Random Stuff\Code\VisualStudio\NetworkCalculator\NetworkCalculator\bin\Debug\NetworkCalculator.pdb
+D:\Dropbox\Random Stuff\Code\VisualStudio\NetworkCalculator\NetworkCalculator\obj\Debug\NetworkCalculator.csprojResolveAssemblyReference.cache
+D:\Dropbox\Random Stuff\Code\VisualStudio\NetworkCalculator\NetworkCalculator\obj\Debug\NetworkCalculator.Form1.resources
+D:\Dropbox\Random Stuff\Code\VisualStudio\NetworkCalculator\NetworkCalculator\obj\Debug\NetworkCalculator.Properties.Resources.resources
+D:\Dropbox\Random Stuff\Code\VisualStudio\NetworkCalculator\NetworkCalculator\obj\Debug\NetworkCalculator.csproj.GenerateResource.Cache
+D:\Dropbox\Random Stuff\Code\VisualStudio\NetworkCalculator\NetworkCalculator\obj\Debug\NetworkCalculator.exe
+D:\Dropbox\Random Stuff\Code\VisualStudio\NetworkCalculator\NetworkCalculator\obj\Debug\NetworkCalculator.pdb
