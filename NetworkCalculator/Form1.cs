@@ -16,5 +16,20 @@ namespace NetworkCalculator
         {
             InitializeComponent();
         }
+
+        private void buttonCalculate_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("TO DO!");
+        }
+
+        private void textBoxIP_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBoxSubnetMask_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

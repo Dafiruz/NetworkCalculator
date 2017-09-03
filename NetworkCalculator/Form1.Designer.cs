@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.buttonCalculate = new System.Windows.Forms.Button();
             this.textBoxIP = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.textBoxSubnetMask = new System.Windows.Forms.TextBox();
@@ -54,14 +54,15 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "IPv4 Address";
             // 
-            // button1
+            // buttonCalculate
             // 
-            this.button1.Location = new System.Drawing.Point(90, 177);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "Calculate!";
-            this.button1.UseVisualStyleBackColor = true;
+            this.buttonCalculate.Location = new System.Drawing.Point(90, 177);
+            this.buttonCalculate.Name = "buttonCalculate";
+            this.buttonCalculate.Size = new System.Drawing.Size(75, 23);
+            this.buttonCalculate.TabIndex = 1;
+            this.buttonCalculate.Text = "Calculate!";
+            this.buttonCalculate.UseVisualStyleBackColor = true;
+            this.buttonCalculate.Click += new System.EventHandler(this.buttonCalculate_Click);
             // 
             // textBoxIP
             // 
@@ -70,6 +71,7 @@
             this.textBoxIP.Size = new System.Drawing.Size(96, 20);
             this.textBoxIP.TabIndex = 2;
             this.textBoxIP.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBoxIP.TextChanged += new System.EventHandler(this.textBoxIP_TextChanged);
             // 
             // label2
             // 
@@ -87,6 +89,7 @@
             this.textBoxSubnetMask.Size = new System.Drawing.Size(96, 20);
             this.textBoxSubnetMask.TabIndex = 4;
             this.textBoxSubnetMask.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBoxSubnetMask.TextChanged += new System.EventHandler(this.textBoxSubnetMask_TextChanged);
             // 
             // label4
             // 
@@ -129,7 +132,6 @@
             this.textBoxHostRange.Name = "textBoxHostRange";
             this.textBoxHostRange.Size = new System.Drawing.Size(191, 20);
             this.textBoxHostRange.TabIndex = 10;
-            this.textBoxHostRange.Text = "192.168.255.255 - 255.255.255.255";
             this.textBoxHostRange.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBoxBroadcast
@@ -195,7 +197,7 @@
             this.Controls.Add(this.textBoxSubnetMask);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.textBoxIP);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.buttonCalculate);
             this.Controls.Add(this.label1);
             this.MaximizeBox = false;
             this.Name = "Form1";
@@ -209,7 +211,7 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button buttonCalculate;
         private System.Windows.Forms.TextBox textBoxIP;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox textBoxSubnetMask;
