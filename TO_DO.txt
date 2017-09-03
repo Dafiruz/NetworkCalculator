@@ -1,0 +1,12 @@
+- OnTextChange check if the ip is valid
+- same for the mask
+- if no mask is provided check if its class A, B or C
+-network address
+-broadcast address
+-host range addresses
+-
+-
+-
+-
+-
+-change the icon
